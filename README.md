@@ -10,7 +10,7 @@ Our platform features four distinct categories: Home and Living, Jewelry, Art an
 To bring this project to life, we utilized a variety of cutting-edge technologies. The core of our application is built on React, providing a seamless and interactive user experience. We leveraged MongoDB as our database, ensuring efficient data management and storage.
 Payment integration is a crucial aspect of any e-commerce platform, and we have implemented the Stripe library to handle secure and hassle-free transactions. Additionally, we utilized the Axios library for smooth communication between the front-end and back-end. To streamline our design process, we employed Figma, a powerful tool for creating wireframes and designing visually appealing interfaces.
 
-`[Click here for the Demo version](https://c42-team-b.herokuapp.com/)`
+[Click here for the Demo version](https://c42-team-b.herokuapp.com/)
 
 ## 1. Setup
 
