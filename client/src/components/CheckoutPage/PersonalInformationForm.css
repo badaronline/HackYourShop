@@ -1,0 +1,89 @@
+.generalContainer {
+  padding: 30em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.personalDetailContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.section-headings {
+  font-family: "public sans", sans-serif;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-weight: 100;
+}
+
+.section-headings .highlighted-address {
+  font-weight: 900;
+}
+
+.checkoutTitle {
+  color: #e38787;
+  font-family: "Poppins", sans-serif;
+  grid-column: 1 / -1;
+}
+
+.checkoutPar {
+  grid-column: 1 / -1;
+  font-family: "public sans", sans-serif;
+  color: #a9abbd;
+  padding-bottom: 2em;
+}
+
+form {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.label {
+  color: #a9abbd;
+  position: absolute;
+  top: 50%;
+  left: 1.5em;
+  transform: translateY(-50%);
+  transition: all 0.3s;
+}
+
+.input {
+  border: 2px solid #ffdc5e;
+  border-radius: 15px;
+  color: #a9abbd;
+  padding: 15px;
+  padding-left: 40px;
+}
+
+/* Hide label when input has a value */
+.input-container.filled .label {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.error-message {
+  grid-column: 1 / -1;
+  /* border: 2px solid #ffdc5e; */
+  border-radius: 15px;
+  color: #a9abbd;
+  font-family: "Public Sans", sans-serif;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 20px;
+}

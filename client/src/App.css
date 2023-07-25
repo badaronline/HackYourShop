@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #f5e094;
+  --secondary-color: #f5cfa9;
+  --heading-color: #e38787;
+  --background-color: #e5e5e5;
+  --accent-color: rgba(245, 207, 169, 0.4);
+  --secondary-text-color: 111111;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}

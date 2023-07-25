@@ -1,0 +1,105 @@
+.generalContainerMethod {
+  display: flex;
+  justify-content: center;
+  padding: 30em;
+  padding-top: 2em;
+}
+
+.ShippingMethodContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.ShippingMethodTitle {
+  color: #e38787;
+  font-family: "Poppins", sans-serif;
+  grid-column: 1 / -1;
+}
+.section-headings {
+  grid-column: 1 / -1;
+  font-family: sans-serif;
+  color: #a9abbd;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-weight: 100;
+}
+
+.section-headings .highlighted-address {
+  font-weight: 900;
+}
+
+form {
+  display: grid;
+  font-family: "public sans", sans-serif;
+  grid-gap: 20px;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  color: #a9abbd;
+  cursor: pointer;
+}
+
+.radio-button {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #ffdc5e;
+  margin-right: 8px;
+}
+
+.radio-option:hover .radio-button {
+  border-color: #e38787;
+}
+
+.radio-option input[type="radio"]:checked + .radio-label .radio-button {
+  background-color: #ffdc5e;
+}
+
+.radio-option input {
+  display: none;
+}
+
+button[type="submit"] {
+  background-color: #ffdc5e;
+  border: none;
+  border-radius: 15px;
+  color: #f7f7fd;
+  padding: 10px 20px;
+  cursor: pointer;
+  grid-column: 1 / -1;
+}
+.containerPostnl {
+  padding: 2.5em;
+  width: 24em;
+  border: 2px solid #ffdc5e;
+  border-radius: 15px;
+}
+
+.containerDHL {
+  padding: 2.5em;
+  width: 24em;
+  border: 2px solid #ffdc5e;
+  border-radius: 15px;
+}
+
+.containerUPS {
+  padding: 2.5em;
+  width: 24em;
+  border: 2px solid #ffdc5e;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 568px) {
+  .containerDHL,
+  .containerUPS,
+  .containerPostnl {
+    width: 20em;
+  }
+}

@@ -1,0 +1,20 @@
+.wishlist {
+  padding: 2rem;
+  margin-top: 4rem;
+  min-height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-title {
+  margin-bottom: 4rem;
+  margin-left: 5rem;
+  font-size: 0.825rem;
+}
+
+@media screen and (max-width: 480px) {
+  .product-title {
+    margin-left: 3rem;
+    font-size: 0.625rem;
+  }
+}

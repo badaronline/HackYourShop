@@ -1,0 +1,64 @@
+/* signupPage.css */
+
+.signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-container {
+  width: 400px;
+  padding: 20px;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #e38787;
+  text-align: center;
+}
+
+.signup-container p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.signup-container form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.signup-container form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.signup-container form .remember-forgot {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.signup-container form button {
+  padding: 10px 20px;
+  background-color: #e38787;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.signup-container form button:hover {
+  background-color: #45a049;
+}

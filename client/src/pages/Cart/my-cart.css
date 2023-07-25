@@ -1,0 +1,245 @@
+/* Default styles */
+
+.cart_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+  padding: 2em;
+}
+.cart_container-checkout {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5em;
+  padding: 1em;
+}
+
+.cart_details {
+  background-color: #f0edea;
+  padding: 2em;
+}
+
+.cart-details-checkout {
+  padding: 2em;
+  background-color: #f0edea;
+}
+
+.cart-details-checkout h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 2em;
+  margin-top: 1.5em;
+  color: #e38787;
+}
+
+.order_summary {
+  background-color: #ffffff;
+  padding: 2em;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5em;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.item img {
+  width: 25%;
+  height: 25%;
+  margin-right: 1em;
+}
+
+.desc_container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding-top: 2em;
+}
+.desc_container h3 {
+  font-family: "Poppins", sans-serif;
+  color: #e38787;
+  margin-left: 1em;
+}
+.quantity_container {
+  align-items: center;
+  margin-bottom: 0;
+}
+.quantity_buttons {
+  padding-bottom: 0;
+  justify-content: center;
+}
+.price-display {
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+
+.remove_item {
+  cursor: pointer;
+  text-decoration: underline;
+  margin-left: 0px;
+  color: #e38787;
+  font-family: "public sans", sans-serif;
+}
+
+.empty-cart {
+  color: #e38787;
+  font-family: "public sans", sans-serif;
+}
+
+.sub_total,
+.shipping,
+div > p {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+.line {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+}
+
+.cart_details h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  color: #e38787;
+  margin-top: 0.8em;
+  margin-left: 0.4em;
+}
+
+.cart_details p {
+  color: #979797;
+  font-family: "public sans", sans-serif;
+  margin-bottom: 1em;
+}
+.continueShopping-checkout {
+  display: none;
+}
+.continueShopping {
+  color: #979797;
+  font-family: "public sans", sans-serif;
+}
+
+.cart_details a {
+  color: #979797;
+  text-decoration: none;
+}
+
+.cart_details a:hover {
+  text-decoration: underline;
+}
+
+.sub_total p,
+.shipping p,
+div > p:first-child {
+  font-weight: bold;
+  color: #979797;
+  font-family: "public sans", sans-serif;
+}
+.sub_total p,
+.shipping p {
+  padding: 0.5em;
+  padding-left: 0em;
+  margin-left: 0em;
+}
+
+.total-and-price {
+  color: #979797;
+  font-family: "public sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.order_summary h1 {
+  color: #e38787;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.order_summary input[type="text"],
+input[type="placeholder"] {
+  color: #979797;
+  font-family: "public sans", sans-serif;
+  width: 100%;
+  padding: 1em;
+  margin-bottom: 1em;
+  border: 2px solid #f5e094;
+  border-radius: 15px;
+  outline: none;
+}
+
+.order_summary button {
+  font-family: "public sans", sans-serif;
+  display: block;
+  width: 100%;
+  padding: 1em;
+  background-color: #f5e094;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.order_summary button:hover {
+  background-color: #f5cfa9;
+}
+.goToCheckout-checkout {
+  display: none;
+}
+
+@media screen and (max-width: 1006px) {
+  .item img {
+    width: 30%;
+    height: 30%;
+    margin-left: 0.5;
+    margin-bottom: 1em;
+  }
+}
+/* Tablet screens */
+@media screen and (max-width: 768px) {
+  .cart_container {
+    grid-template-columns: 1fr;
+  }
+
+  .order_summary {
+    margin-top: 1em;
+  }
+  .item img {
+    width: 25%;
+    height: 25%;
+    margin-left: 1em;
+    margin-bottom: 1em;
+  }
+}
+
+/* Mobile screens */
+@media screen and (max-width: 480px) {
+  .cart_details,
+  .order_summary {
+    padding: 0.5em;
+  }
+
+  .item {
+    flex-wrap: wrap;
+  }
+
+  .item img {
+    width: 45%;
+    height: 30%;
+    margin-left: 1em;
+    margin-bottom: 1em;
+  }
+}

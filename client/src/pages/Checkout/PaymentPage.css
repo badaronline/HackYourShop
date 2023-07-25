@@ -1,0 +1,56 @@
+.paymentPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.paymentMethod {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border: none;
+  background: #f2f2f2;
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.selected {
+  background-color: #f5e094;
+  color: white;
+}
+
+.confirmButton {
+  padding: 12px 24px;
+  background-color: #e38787;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.confirmButton:hover {
+  background-color: #333333;
+}

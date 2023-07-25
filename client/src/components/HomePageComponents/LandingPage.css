@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Dancing+Script:wght@400;500&family=Foldit:wght@500&family=Kanit:wght@300&family=Monoton&family=Poppins:wght@700&family=Public+Sans:wght@500&family=Reem+Kufi+Fun&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Dancing+Script:wght@400;500&family=Foldit:wght@500&family=Kanit:wght@300&family=Monoton&family=Poppins:wght@700&family=Reem+Kufi+Fun&display=swap");
+
+* {
+  margin: 1em;
+  padding: 1em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5em;
+}
+
+.container-upper {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  color: #e38787;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.2em;
+  line-height: 1.2em;
+  font-size: 4em;
+  max-width: 17em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.4em;
+}
+
+.website-description {
+  background-color: #fff;
+  font-family: "Public Sans", sans-serif;
+  font-size: medium;
+  font-style: italic;
+  color: #979797;
+  margin-top: 2em;
+  max-width: 50em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Landing-Image {
+  width: 90%;
+  height: 40rem;
+}
+
+.Landing-Image img {
+  margin-top: 3em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+  height: 100%;
+  width: 90%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 480px) {
+  .container-upper {
+    padding: 1em;
+    margin: 0em;
+  }
+
+  .container h1 {
+    font-size: 1.8em;
+    padding: 0.3em;
+  }
+
+  .website-description {
+    margin-top: 0em;
+  }
+  .Landing-Image img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 20em;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  .container h1 {
+    line-height: 1.2em;
+    font-size: 3em;
+  }
+
+  .website-description {
+    margin-top: 2em;
+    padding: 0 2em;
+    max-width: 50em;
+  }
+  .Landing-Image img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 35em;
+  }
+}

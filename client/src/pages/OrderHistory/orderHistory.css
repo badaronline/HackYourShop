@@ -1,0 +1,79 @@
+.order-history-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "public sans", sans-serif;
+}
+
+.order-history-heading {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.order-history-item {
+  margin-top: 30px;
+
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f5e094;
+}
+
+.order-header {
+  margin-bottom: 10px;
+}
+
+.order-id {
+  font-weight: bold;
+}
+
+.personal-info ul,
+.order-summary ul,
+.cart-items ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section-heading {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  color: #e38787;
+}
+
+.info-label {
+  font-weight: bold;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.item-details {
+  display: flex;
+  align-items: center;
+}
+
+.product-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.order-summary {
+  margin-top: 20px;
+}
+
+.total-paid {
+  font-weight: bold;
+}
+
+.order-history-container ul li:not(:last-child) {
+  margin-bottom: 5px;
+}
